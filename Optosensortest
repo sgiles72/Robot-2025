@@ -2,6 +2,9 @@
 #include <FEHIO.h>
 #include <FEHSD.h>
 #include <FEHMotor.h>
+AnalogInputPin right_opto(FEHIO::P1_0);
+AnalogInputPin middle_opto(FEHIO::P1_3);
+AnalogInputPin left_opto(FEHIO::P1_7);
 
 int main()// get_optosensor_readings()
 {
